@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+<form action="">
+    用户名：
+    <input type="text">
+    <br/>
+    密码：
+    <input type="password">
+    <br/>
+    喜欢的水果有？
+    <br>
+    苹果<input type="checkbox">
+    西红柿<input type="checkbox">
+    草莓<input type="checkbox">
+    <br>
+    请选择您的性别：
+    男<input type="radio" name="sex">
+    女<input type="radio" name="sex">
+    <br>
+    请选择要使用的网站：
+    <select>
+        <option>www.baidu.com</option>
+        <option>www.qq.com</option>
+        <option>www.taobao.com</option>
+    </select>
+    <br>
+<textarea cols="30" rows="30">请再次填写个人信息</textarea>
+    <br>
+    <input type="button" value="按钮">
+</form>
+    <input type="submit" value="提交">
+
+</body>
+</html>
