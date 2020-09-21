@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>article元素</title>
+</head>
+<body>
+<article>
+        <header>
+            <h1>百度111</h1>
+            <p>百度一下</p>
+        </header>
+        <article>
+            <header>
+                作者
+            </header>
+            <p>评论</p>
+            <footer>
+                time
+            </footer>
+        </article>
+    <footer>
+        <p>这是底部</p>
+    </footer>
+<!--以下把上面编辑部分封装 -->
+</article>
+    <article>
+        <object>
+            <embed src="#" width="600" heigth="400"></embed>
+        </object>
+    </article>
+</body>
+</html>
